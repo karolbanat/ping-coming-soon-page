@@ -2,28 +2,51 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600;700&display=swap"
-    rel="stylesheet">
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600;700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/@tabler/icons@latest/iconfont/tabler-icons.min.css">
+	<link rel="stylesheet" href="./dist/css/main.min.css">
 
-  <title>Frontend Mentor | Ping coming soon page</title>
+	<title>Frontend Mentor | Ping coming soon page</title>
 </head>
 
 <body>
 
-  <!-- We are launching soon!
-
-  Subscribe and get notified
-
-  Notify Me
-
-  &copy; Copyright Ping. All rights reserved. -->
+	<main>
+		<section class="coming-soon" aria-labelledby="coming-soon-heading">
+			<header class="coming-soon__header">
+				<img src="./dist/images/logo.svg" alt="Ping logo.">
+				<h1 id="coming-soon-heading">We are launching <span>soon!</span></h1>
+				<p>Subscribe and get notified</p>
+			</header>
+			<form class="form">
+				<div class="form__input-container">
+					<input type="text" class="form__input" aria-label="Email address">
+					<p class="input__msg"></p>
+				</div>
+				<button class="btn submit-btn">Notify Me</button>
+			</form>
+			<img src="./dist/images/illustration-dashboard.png" alt="Illustration of ping dashboard.">
+			<footer class="footer">
+				<ul class="media">
+					<li><a href="#" class="media__link" aria-label="Facebook"><i class="ti ti-brand-facebook"></i></a>
+					</li>
+					<li><a href="#" class="media__link" aria-label="Twitter"><i class="ti ti-brand-twitter"></i></a>
+					</li>
+					<li><a href="#" class="media__link" aria-label="Instagram"><i class="ti ti-brand-instagram"></i></a>
+					</li>
+				</ul>
+				<p class="footer__copyright">&copy; Copyright Ping. All rights reserved.</p>
+			</footer>
+		</section>
+	</main>
 </body>
 
 </html>
