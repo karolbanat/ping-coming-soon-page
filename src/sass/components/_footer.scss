@@ -1,0 +1,13 @@
+.footer {
+	display: grid;
+	place-items: center;
+	gap: 3.2rem;
+	padding: 0 4.5rem 4.5rem;
+
+	text-align: center;
+
+	&__copyright {
+		font-size: var(--fz-small);
+		color: var(--clr-copyright);
+	}
+}
