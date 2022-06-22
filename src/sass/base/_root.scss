@@ -1,0 +1,43 @@
+:root {
+	// colors
+	--clr-primary-700: hsl(223, 87%, 63%);
+
+	--clr-secondary-400: hsl(354, 100%, 66%);
+	--clr-seconday-700: hsl(223, 100%, 88%);
+
+	--clr-neutral-400: hsl(0, 0%, 59%);
+	--clr-neutral-700: hsl(209, 33%, 12%);
+
+	--clr-white: hsl(0, 0%, 100%);
+
+	//font families
+	--ff: 'Libre Franklin', sans-serif;
+
+	// font sizes
+	--fz-small: 1.4rem;
+	--fz-regular: 1.6rem;
+	--fz-large: 2.8rem;
+
+	// font weights
+	--fw-400: 300;
+	--fw-700: 600;
+	--fw-900: 700;
+
+	// stage
+	--clr-body: var(--clr-neutral-700);
+
+	--heading: var(--clr-neutral-400);
+	--heading-span: var(--clr-neutral-700);
+
+	--input-border: var(--clr-seconday-700);
+
+	--clr-button: var(--clr-white);
+	--bg-button: var(--clr-primary-700);
+	--shadow: 0 1rem 4rem var(--clr-primary-700);
+
+	--error: var(--clr-secondary-400);
+
+	--clr-media: var(--clr-primary-700);
+	--bg-media: var(--clr-white);
+	--media-border: var(--clr-seconday-700);
+}

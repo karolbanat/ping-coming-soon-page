@@ -1,0 +1,10 @@
+body {
+	font-family: var(--ff);
+	color: var(--clr-body);
+}
+
+main {
+	display: grid;
+	place-content: center;
+	min-height: 100vh;
+}
